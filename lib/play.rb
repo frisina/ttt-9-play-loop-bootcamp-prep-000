@@ -40,3 +40,4 @@ def play(board)
   while board.each != " " && array.each != ""
     turn(board)
   end
+end
