@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  while board.each != " " && array.each != ""
+  while board.each != " " && board.each != ""
     turn(board)
   end
 end
